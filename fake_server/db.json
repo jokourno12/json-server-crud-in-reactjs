@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Industrial Engineering",
+      "penerbit": "Institut",
+      "tahun": "2017"
+    },
+    {
+      "id": 2,
+      "title": "Web Development",
+      "penerbit": "Purwadhika",
+      "tahun": 2021
+    },
+    {
+      "id": 3,
+      "title": "Cloud Computing",
+      "penerbit": "Amazon",
+      "tahun": 2022
+    },
+    {
+      "title": "Minitab",
+      "penerbit": "Kaukig",
+      "tahun": "2023",
+      "id": 4
+    },
+    {
+      "title": "Statistik",
+      "penerbit": "Erlangga",
+      "tahun": "1998",
+      "id": 5
+    },
+    {
+      "title": "Indonesia",
+      "penerbit": "Yudhistira",
+      "tahun": "2021",
+      "id": 6
+    },
+    {
+      "title": "Fathur Rabbani",
+      "penerbit": "Turos",
+      "tahun": "2017",
+      "id": 7
+    },
+    {
+      "title": "Riset Operasi",
+      "penerbit": "Andi",
+      "tahun": "1998",
+      "id": 8
+    }
+  ]
+}

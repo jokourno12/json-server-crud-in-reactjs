@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import FakeApi from './FakeAPI';
+import FakeApiCrud from './FakeAPI_CRUD';
+import FakeApiTable from './FakeAPI_Table';
+import Home from './Home';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component{
+  render(){
+    return(
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<Home/>}/>
+          <Route exact path='/fake-api' element={<FakeApi/>} />
+          <Route exact path='/fake-api-table' element={<FakeApiTable/>} />
+          <Route exact path='/fake-api-crud' element={<FakeApiCrud/>} />
+        </Routes>
+      </Router>
+    )
+  }
 }
-
-export default App;
